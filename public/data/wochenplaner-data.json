@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-29T18:16:03.045Z",
+  "updatedAt": "2026-06-29T18:23:05.951Z",
   "extraTasks": [
     {
       "id": "0-Montag-17:30-Nachhilfe Daisy-1782743185050",
@@ -18,16 +18,6 @@
       "start": "22:00",
       "end": "01:00",
       "title": "Deutschland Spiel",
-      "type": "free",
-      "fixed": true,
-      "weekOffset": 0
-    },
-    {
-      "id": "0-Montag-21:15-Gg-1782756957787",
-      "day": "Montag",
-      "start": "21:15",
-      "end": "22:00",
-      "title": "Gg",
       "type": "free",
       "fixed": true,
       "weekOffset": 0
