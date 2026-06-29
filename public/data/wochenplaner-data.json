@@ -1,7 +1,246 @@
 {
   "version": 1,
-  "updatedAt": null,
-  "extraTasks": [],
+  "updatedAt": "2026-06-29T18:15:07.632Z",
+  "extraTasks": [
+    {
+      "id": "0-Montag-17:30-Nachhilfe Daisy -1782747590986",
+      "day": "Montag",
+      "start": "17:30",
+      "end": "18:30",
+      "title": "Nachhilfe Daisy ",
+      "type": "free",
+      "fixed": true,
+      "weekOffset": 0
+    }
+  ],
   "checkedTasks": [],
-  "shoppingLists": {}
+  "shoppingLists": {
+    "0-Montag": [
+      {
+        "id": "default-Haferflocken",
+        "text": "Haferflocken",
+        "done": false
+      },
+      {
+        "id": "default-Milch",
+        "text": "Milch",
+        "done": false
+      },
+      {
+        "id": "default-Hähnchen",
+        "text": "Hähnchen",
+        "done": false
+      }
+    ],
+    "0-Mittwoch": [
+      {
+        "id": "default-Haferflocken",
+        "text": "Haferflocken",
+        "done": false
+      },
+      {
+        "id": "default-Eier",
+        "text": "Eier",
+        "done": false
+      },
+      {
+        "id": "default-Milch",
+        "text": "Milch",
+        "done": false
+      },
+      {
+        "id": "default-Reis",
+        "text": "Reis",
+        "done": false
+      },
+      {
+        "id": "default-Hähnchen",
+        "text": "Hähnchen",
+        "done": false
+      },
+      {
+        "id": "default-Gemüse",
+        "text": "Gemüse",
+        "done": false
+      },
+      {
+        "id": "default-Obst",
+        "text": "Obst",
+        "done": false
+      },
+      {
+        "id": "default-Joghurt",
+        "text": "Joghurt",
+        "done": false
+      }
+    ],
+    "0-Freitag": [
+      {
+        "id": "default-Haferflocken",
+        "text": "Haferflocken",
+        "done": false
+      },
+      {
+        "id": "default-Eier",
+        "text": "Eier",
+        "done": false
+      },
+      {
+        "id": "default-Milch",
+        "text": "Milch",
+        "done": false
+      },
+      {
+        "id": "default-Reis",
+        "text": "Reis",
+        "done": false
+      },
+      {
+        "id": "default-Hähnchen",
+        "text": "Hähnchen",
+        "done": false
+      },
+      {
+        "id": "default-Gemüse",
+        "text": "Gemüse",
+        "done": false
+      },
+      {
+        "id": "default-Obst",
+        "text": "Obst",
+        "done": false
+      },
+      {
+        "id": "default-Joghurt",
+        "text": "Joghurt",
+        "done": false
+      }
+    ],
+    "1-Montag": [
+      {
+        "id": "default-Haferflocken",
+        "text": "Haferflocken",
+        "done": false
+      },
+      {
+        "id": "default-Eier",
+        "text": "Eier",
+        "done": false
+      },
+      {
+        "id": "default-Milch",
+        "text": "Milch",
+        "done": false
+      },
+      {
+        "id": "default-Reis",
+        "text": "Reis",
+        "done": false
+      },
+      {
+        "id": "default-Hähnchen",
+        "text": "Hähnchen",
+        "done": false
+      },
+      {
+        "id": "default-Gemüse",
+        "text": "Gemüse",
+        "done": false
+      },
+      {
+        "id": "default-Obst",
+        "text": "Obst",
+        "done": false
+      },
+      {
+        "id": "default-Joghurt",
+        "text": "Joghurt",
+        "done": false
+      }
+    ],
+    "1-Mittwoch": [
+      {
+        "id": "default-Haferflocken",
+        "text": "Haferflocken",
+        "done": false
+      },
+      {
+        "id": "default-Eier",
+        "text": "Eier",
+        "done": false
+      },
+      {
+        "id": "default-Milch",
+        "text": "Milch",
+        "done": false
+      },
+      {
+        "id": "default-Reis",
+        "text": "Reis",
+        "done": false
+      },
+      {
+        "id": "default-Hähnchen",
+        "text": "Hähnchen",
+        "done": false
+      },
+      {
+        "id": "default-Gemüse",
+        "text": "Gemüse",
+        "done": false
+      },
+      {
+        "id": "default-Obst",
+        "text": "Obst",
+        "done": false
+      },
+      {
+        "id": "default-Joghurt",
+        "text": "Joghurt",
+        "done": false
+      }
+    ],
+    "1-Freitag": [
+      {
+        "id": "default-Haferflocken",
+        "text": "Haferflocken",
+        "done": false
+      },
+      {
+        "id": "default-Eier",
+        "text": "Eier",
+        "done": false
+      },
+      {
+        "id": "default-Milch",
+        "text": "Milch",
+        "done": false
+      },
+      {
+        "id": "default-Reis",
+        "text": "Reis",
+        "done": false
+      },
+      {
+        "id": "default-Hähnchen",
+        "text": "Hähnchen",
+        "done": false
+      },
+      {
+        "id": "default-Gemüse",
+        "text": "Gemüse",
+        "done": false
+      },
+      {
+        "id": "default-Obst",
+        "text": "Obst",
+        "done": false
+      },
+      {
+        "id": "default-Joghurt",
+        "text": "Joghurt",
+        "done": false
+      }
+    ]
+  }
 }
