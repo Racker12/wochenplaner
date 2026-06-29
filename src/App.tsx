@@ -123,6 +123,7 @@ function App() {
 
   const currentDayName = getCurrentDayName();
   const currentMinutes = now.getHours() * 60 + now.getMinutes();
+
   const formattedNow = now.toLocaleTimeString("de-DE", {
     hour: "2-digit",
     minute: "2-digit",
@@ -310,6 +311,35 @@ function App() {
     setChecked((old) =>
       old.filter((checkedKey) => !currentDayKeys.includes(checkedKey))
     );
+  };
+
+  const exportGithubData = async () => {
+    const exportData = {
+      version: 1,
+      updatedAt: new Date().toISOString(),
+      extraTasks,
+      checkedTasks: checked,
+      shoppingLists,
+    };
+
+    const json = JSON.stringify(exportData, null, 2);
+
+    try {
+      await navigator.clipboard.writeText(json);
+      alert("GitHub-Daten wurden in die Zwischenablage kopiert.");
+    } catch {
+      const blob = new Blob([json], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "wochenplaner-data.json";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+
+      URL.revokeObjectURL(url);
+    }
   };
 
   const nextTask = dayTasks.find((task) => !isTaskDone(task));
@@ -555,6 +585,19 @@ function App() {
           ) : (
             <p className="muted">Heute ist kein Einkaufstag.</p>
           )}
+
+          <hr />
+
+          <h2>GitHub Sync</h2>
+
+          <p className="muted">
+            Kopiere deine aktuellen Termine, Haken und Einkaufslisten als
+            JSON-Daten für den GitHub-Kurzbefehl.
+          </p>
+
+          <button className="secondary" onClick={exportGithubData}>
+            GitHub-Daten kopieren
+          </button>
 
           <hr />
 
