@@ -1,13 +1,33 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-29T18:15:07.632Z",
+  "updatedAt": "2026-06-29T18:16:03.045Z",
   "extraTasks": [
     {
-      "id": "0-Montag-17:30-Nachhilfe Daisy -1782747590986",
+      "id": "0-Montag-17:30-Nachhilfe Daisy-1782743185050",
       "day": "Montag",
       "start": "17:30",
       "end": "18:30",
-      "title": "Nachhilfe Daisy ",
+      "title": "Nachhilfe Daisy",
+      "type": "free",
+      "fixed": true,
+      "weekOffset": 0
+    },
+    {
+      "id": "0-Montag-22:00-Deutschland Spiel-1782751736135",
+      "day": "Montag",
+      "start": "22:00",
+      "end": "01:00",
+      "title": "Deutschland Spiel",
+      "type": "free",
+      "fixed": true,
+      "weekOffset": 0
+    },
+    {
+      "id": "0-Montag-21:15-Gg-1782756957787",
+      "day": "Montag",
+      "start": "21:15",
+      "end": "22:00",
+      "title": "Gg",
       "type": "free",
       "fixed": true,
       "weekOffset": 0
@@ -15,23 +35,7 @@
   ],
   "checkedTasks": [],
   "shoppingLists": {
-    "0-Montag": [
-      {
-        "id": "default-Haferflocken",
-        "text": "Haferflocken",
-        "done": false
-      },
-      {
-        "id": "default-Milch",
-        "text": "Milch",
-        "done": false
-      },
-      {
-        "id": "default-Hähnchen",
-        "text": "Hähnchen",
-        "done": false
-      }
-    ],
+    "0-Montag": [],
     "0-Mittwoch": [
       {
         "id": "default-Haferflocken",
