@@ -414,3 +414,78 @@ hr {
   width: auto;
   margin-bottom: 14px;
 }
+.current-time-hint {
+  color: #94a3b8;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.task {
+  position: relative;
+  overflow: hidden;
+}
+
+.past-task {
+  opacity: 0.42;
+  filter: grayscale(0.35);
+}
+
+.current-task {
+  opacity: 1;
+  box-shadow: 0 0 0 1px rgba(148, 163, 184, 0.35),
+    0 18px 40px rgba(15, 23, 42, 0.35);
+}
+
+.current-time-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: rgba(148, 163, 184, 0.95);
+  z-index: 5;
+  transform: translateY(-1px);
+  pointer-events: none;
+}
+
+.current-time-line span {
+  position: absolute;
+  right: 10px;
+  top: -11px;
+  background: #94a3b8;
+  color: #020617;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 2px 7px;
+  border-radius: 999px;
+}
+
+.time-gap-line {
+  height: 18px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: -2px 0;
+}
+
+.time-gap-line::before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: rgba(148, 163, 184, 0.95);
+  border-radius: 999px;
+}
+
+.time-gap-line span {
+  position: absolute;
+  right: 10px;
+  background: #94a3b8;
+  color: #020617;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 2px 7px;
+  border-radius: 999px;
+}
+
+.after-last {
+  margin-top: 8px;
+}

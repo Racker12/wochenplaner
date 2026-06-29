@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { Fragment, useEffect, useMemo, useState } from "react";
 import "./App.css";
 import type { Task } from "./planner/types";
 import { DAYS, SHOPPING_LIST, createDefaultWeek } from "./data/defaults";
@@ -20,6 +20,17 @@ const CHECKED_TASKS_STORAGE_KEY = "wochenplaner.checkedTasks.v1";
 function getCurrentDayName() {
   const dayIndex = new Date().getDay();
   return DAYS[dayIndex === 0 ? 6 : dayIndex - 1];
+}
+
+function getTaskEndMinutes(task: Task) {
+  const start = timeToMinutes(task.start);
+  const end = timeToMinutes(task.end);
+
+  if (end <= start) {
+    return 24 * 60;
+  }
+
+  return end;
 }
 
 function createDefaultShoppingItems(): ShoppingItem[] {
@@ -85,6 +96,7 @@ function loadCheckedTasks(): string[] {
 }
 
 function App() {
+  const [now, setNow] = useState(() => new Date());
   const [selectedDay, setSelectedDay] = useState(getCurrentDayName());
   const [weekOffset, setWeekOffset] = useState(0);
   const [checked, setChecked] = useState<string[]>(() => loadCheckedTasks());
@@ -109,6 +121,15 @@ function App() {
 
   const dayTasks = resolveDaySchedule(allTasks, selectedDay);
 
+  const currentDayName = getCurrentDayName();
+  const currentMinutes = now.getHours() * 60 + now.getMinutes();
+  const formattedNow = now.toLocaleTimeString("de-DE", {
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+
+  const isViewingToday = weekOffset === 0 && selectedDay === currentDayName;
+
   const shoppingKey = `${weekOffset}-${selectedDay}`;
   const isShoppingDay = SHOPPING_DAYS.includes(selectedDay);
   const currentShoppingList =
@@ -121,6 +142,73 @@ function App() {
   const isTaskDone = (task: Task) => {
     return checked.includes(getTaskDoneKey(task));
   };
+
+  const getTaskStatus = (task: Task) => {
+    if (!isViewingToday) {
+      return "normal";
+    }
+
+    const start = timeToMinutes(task.start);
+    const end = getTaskEndMinutes(task);
+
+    if (currentMinutes >= end) {
+      return "past";
+    }
+
+    if (currentMinutes >= start && currentMinutes < end) {
+      return "current";
+    }
+
+    return "normal";
+  };
+
+  const getCurrentLinePosition = (task: Task) => {
+    const start = timeToMinutes(task.start);
+    const end = getTaskEndMinutes(task);
+    const duration = end - start;
+
+    if (duration <= 0) {
+      return 0;
+    }
+
+    const progress = ((currentMinutes - start) / duration) * 100;
+
+    return Math.min(100, Math.max(0, progress));
+  };
+
+  const shouldShowLineBeforeTask = (task: Task, index: number) => {
+    if (!isViewingToday) {
+      return false;
+    }
+
+    const taskStart = timeToMinutes(task.start);
+
+    if (index === 0) {
+      return currentMinutes < taskStart;
+    }
+
+    const previousTask = dayTasks[index - 1];
+    const previousEnd = getTaskEndMinutes(previousTask);
+
+    return currentMinutes >= previousEnd && currentMinutes < taskStart;
+  };
+
+  const shouldShowLineAfterLastTask = () => {
+    if (!isViewingToday || dayTasks.length === 0) {
+      return false;
+    }
+
+    const lastTask = dayTasks[dayTasks.length - 1];
+    return currentMinutes >= getTaskEndMinutes(lastTask);
+  };
+
+  useEffect(() => {
+    const interval = window.setInterval(() => {
+      setNow(new Date());
+    }, 30_000);
+
+    return () => window.clearInterval(interval);
+  }, []);
 
   useEffect(() => {
     localStorage.setItem(SHOPPING_STORAGE_KEY, JSON.stringify(shoppingLists));
@@ -284,59 +372,98 @@ function App() {
             <span>{weekOffset === 0 ? "diese Woche" : "nächste Woche"}</span>
           </h2>
 
+          {isViewingToday && (
+            <p className="current-time-hint">Aktuelle Zeit: {formattedNow}</p>
+          )}
+
           <button className="secondary day-reset" onClick={resetDayProgress}>
             Haken für diesen Tag zurücksetzen
           </button>
 
           <div className="timeline">
-            {dayTasks.map((task) => (
-              <article key={task.id} className={`task ${task.type}`}>
-                <div className="time">
-                  {task.start}
-                  <br />
-                  {task.end}
-                </div>
+            {dayTasks.map((task, index) => {
+              const status = getTaskStatus(task);
+              const isCurrentTask = status === "current";
+              const isPastTask = status === "past";
 
-                <div className="task-content">
-                  <h3>{task.title}</h3>
-
-                  <p>
-                    {task.fixed ? "Fixer Termin" : "Verschiebbar"} ·{" "}
-                    {task.weekOffset !== undefined
-                      ? "Spontaner Termin"
-                      : task.type}
-                  </p>
-
-                  {task.rescheduledFrom && (
-                    <p className="rescheduled-note">
-                      Verschoben von {task.rescheduledFrom.start}–
-                      {task.rescheduledFrom.end}
-                    </p>
+              return (
+                <Fragment key={task.id}>
+                  {shouldShowLineBeforeTask(task, index) && (
+                    <div className="time-gap-line">
+                      <span>{formattedNow}</span>
+                    </div>
                   )}
 
-                  {task.planningWarning && (
-                    <p className="warning-note">{task.planningWarning}</p>
-                  )}
-                </div>
+                  <article
+                    className={`task ${task.type} ${
+                      isPastTask ? "past-task" : ""
+                    } ${isCurrentTask ? "current-task" : ""}`}
+                  >
+                    {isCurrentTask && (
+                      <div
+                        className="current-time-line"
+                        style={{
+                          top: `${getCurrentLinePosition(task)}%`,
+                        }}
+                      >
+                        <span>{formattedNow}</span>
+                      </div>
+                    )}
 
-                {task.weekOffset !== undefined ? (
-                  <button
-                    className="delete-button"
-                    onClick={() => deleteExtraTask(task.id)}
-                    aria-label={`${task.title} löschen`}
-                  >
-                    ×
-                  </button>
-                ) : (
-                  <button
-                    className={isTaskDone(task) ? "done" : ""}
-                    onClick={() => toggleDone(task)}
-                  >
-                    {isTaskDone(task) ? "✓" : "○"}
-                  </button>
-                )}
-              </article>
-            ))}
+                    <div className="time">
+                      {task.start}
+                      <br />
+                      {task.end}
+                    </div>
+
+                    <div className="task-content">
+                      <h3>{task.title}</h3>
+
+                      <p>
+                        {task.fixed ? "Fixer Termin" : "Verschiebbar"} ·{" "}
+                        {task.weekOffset !== undefined
+                          ? "Spontaner Termin"
+                          : task.type}
+                      </p>
+
+                      {task.rescheduledFrom && (
+                        <p className="rescheduled-note">
+                          Verschoben von {task.rescheduledFrom.start}–
+                          {task.rescheduledFrom.end}
+                        </p>
+                      )}
+
+                      {task.planningWarning && (
+                        <p className="warning-note">{task.planningWarning}</p>
+                      )}
+                    </div>
+
+                    {task.weekOffset !== undefined ? (
+                      <button
+                        className="delete-button"
+                        onClick={() => deleteExtraTask(task.id)}
+                        aria-label={`${task.title} löschen`}
+                      >
+                        ×
+                      </button>
+                    ) : (
+                      <button
+                        className={isTaskDone(task) ? "done" : ""}
+                        onClick={() => toggleDone(task)}
+                      >
+                        {isTaskDone(task) ? "✓" : "○"}
+                      </button>
+                    )}
+                  </article>
+                </Fragment>
+              );
+            })}
+
+            {shouldShowLineAfterLastTask() && (
+              <div className="time-gap-line after-last">
+                <span>{formattedNow}</span>
+              </div>
+            )}
           </div>
         </div>
 
