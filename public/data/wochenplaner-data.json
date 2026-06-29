@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-29T18:23:05.951Z",
+  "updatedAt": "2026-06-29T18:25:15.773Z",
   "extraTasks": [
     {
       "id": "0-Montag-17:30-Nachhilfe Daisy-1782743185050",
@@ -21,11 +21,27 @@
       "type": "free",
       "fixed": true,
       "weekOffset": 0
+    },
+    {
+      "id": "0-Montag-19:24-XD-1782757503656",
+      "day": "Montag",
+      "start": "19:24",
+      "end": "21:25",
+      "title": "XD",
+      "type": "free",
+      "fixed": true,
+      "weekOffset": 0
     }
   ],
   "checkedTasks": [],
   "shoppingLists": {
-    "0-Montag": [],
+    "0-Montag": [
+      {
+        "id": "custom-1782757513893",
+        "text": "Pommes",
+        "done": false
+      }
+    ],
     "0-Mittwoch": [
       {
         "id": "default-Haferflocken",
