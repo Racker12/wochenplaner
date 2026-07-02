@@ -1,6 +1,6 @@
 import { Fragment, useEffect, useMemo, useState } from "react";
 import "./App.css";
-import type { Task } from "./planner/types";
+import type { Task, TaskType } from "./planner/types";
 import { DAYS, SHOPPING_LIST, createDefaultWeek } from "./data/defaults";
 import { resolveDaySchedule, timeToMinutes } from "./planner/scheduler";
 
@@ -11,6 +11,17 @@ type ShoppingItem = {
 };
 
 type ShoppingLists = Record<string, ShoppingItem[]>;
+
+type CalendarEventExport = {
+  id: string;
+  weekOffset: number;
+  day: string;
+  start: string;
+  end: string;
+  title: string;
+  type: TaskType;
+  notes: string;
+};
 
 const SHOPPING_DAYS = ["Montag", "Mittwoch", "Freitag"];
 const SHOPPING_STORAGE_KEY = "wochenplaner.shoppingLists.v1";
@@ -313,20 +324,107 @@ function App() {
     );
   };
 
+  const getShoppingNotesForTask = (task: Task, exportWeekOffset: number) => {
+    if (task.type !== "shopping") {
+      return "";
+    }
+
+    const key = `${exportWeekOffset}-${task.day}`;
+    const list = shoppingLists[key] ?? createDefaultShoppingItems();
+
+    if (list.length === 0) {
+      return "Einkaufsliste:\n- Keine Einträge";
+    }
+
+    return (
+      "Einkaufsliste:\n" +
+      list
+        .map((item) => {
+          const box = item.done ? "☑" : "☐";
+          return `${box} ${item.text}`;
+        })
+        .join("\n")
+    );
+  };
+
+  const buildCalendarEvents = (): CalendarEventExport[] => {
+    const events: CalendarEventExport[] = [];
+
+    for (const exportWeekOffset of [0, 1]) {
+      const weekExtraTasks = extraTasks.filter(
+        (task) => task.weekOffset === exportWeekOffset
+      );
+
+      const weekTasks = [...baseTasks, ...weekExtraTasks];
+
+      for (const day of DAYS) {
+        const resolvedDayTasks = resolveDaySchedule(weekTasks, day);
+
+        for (const task of resolvedDayTasks) {
+          const notesParts = [
+            `Quelle: ${
+              task.weekOffset !== undefined ? "spontaner Termin" : "Standardplan"
+            }`,
+            `Woche: ${
+              exportWeekOffset === 0 ? "diese Woche" : "nächste Woche"
+            }`,
+            `Tag: ${task.day}`,
+            `Zeit: ${task.start}–${task.end}`,
+          ];
+
+          if (task.rescheduledFrom) {
+            notesParts.push(
+              `Verschoben von: ${task.rescheduledFrom.start}–${task.rescheduledFrom.end}`
+            );
+          }
+
+          if (task.planningWarning) {
+            notesParts.push(`Warnung: ${task.planningWarning}`);
+          }
+
+          const shoppingNotes = getShoppingNotesForTask(task, exportWeekOffset);
+
+          if (shoppingNotes) {
+            notesParts.push("");
+            notesParts.push(shoppingNotes);
+          }
+
+          events.push({
+            id: `${exportWeekOffset}-${task.id}`,
+            weekOffset: exportWeekOffset,
+            day: task.day,
+            start: task.start,
+            end: task.end,
+            title: task.title,
+            type: task.type,
+            notes: notesParts.join("\n"),
+          });
+        }
+      }
+    }
+
+    return events;
+  };
+
   const exportGithubData = async () => {
+    const calendarEvents = buildCalendarEvents();
+
     const exportData = {
       version: 1,
       updatedAt: new Date().toISOString(),
       extraTasks,
       checkedTasks: checked,
       shoppingLists,
+      calendarEvents,
     };
 
     const json = JSON.stringify(exportData, null, 2);
 
     try {
       await navigator.clipboard.writeText(json);
-      alert("GitHub-Daten wurden in die Zwischenablage kopiert.");
+      alert(
+        `GitHub-Daten wurden in die Zwischenablage kopiert.\n\nKalendertermine: ${calendarEvents.length}`
+      );
     } catch {
       const blob = new Blob([json], { type: "application/json" });
       const url = URL.createObjectURL(blob);
@@ -591,8 +689,8 @@ function App() {
           <h2>GitHub Sync</h2>
 
           <p className="muted">
-            Kopiere deine aktuellen Termine, Haken und Einkaufslisten als
-            JSON-Daten für den GitHub-Kurzbefehl.
+            Kopiere deine aktuellen Termine, Haken, Einkaufslisten und
+            Kalenderdaten als JSON-Daten für Scriptable.
           </p>
 
           <button className="secondary" onClick={exportGithubData}>

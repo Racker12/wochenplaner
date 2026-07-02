@@ -21,6 +21,16 @@ export const SHOPPING_LIST = [
   "Joghurt",
 ];
 
+export const SWIMMING_OPENING_HOURS = {
+  Montag: "11:00–20:00",
+  Dienstag: "12:00–20:00",
+  Mittwoch: "09:00–20:00",
+  Donnerstag: "09:00–20:00",
+  Freitag: "11:00–20:00",
+  Samstag: "09:30–18:45",
+  Sonntag: "09:30–18:45",
+};
+
 export function createDefaultWeek(): Task[] {
   const tasks: Task[] = [];
 
@@ -70,11 +80,12 @@ export function createDefaultWeek(): Task[] {
     }
 
     if (day === "Donnerstag") {
-      add(day, "06:30", "07:00", "Zum Schwimmen fahren", "sport");
-      add(day, "07:00", "08:30", "Schwimmen", "sport");
-      add(day, "08:30", "09:00", "Rückfahrt", "sport");
-      add(day, "09:00", "09:30", "Duschen", "routine");
-      add(day, "09:30", "10:30", "Wäsche", "household");
+      add(day, "06:30", "08:00", "Lernen", "study");
+      add(day, "08:00", "08:30", "Wäsche", "household");
+      add(day, "08:30", "09:00", "Zum Schwimmen fahren", "sport");
+      add(day, "09:00", "10:30", "Schwimmen", "sport");
+      add(day, "10:30", "11:00", "Rückfahrt", "sport");
+      add(day, "11:00", "11:30", "Duschen", "routine");
     }
 
     if (day === "Freitag") {
@@ -91,13 +102,17 @@ export function createDefaultWeek(): Task[] {
     if (day === "Dienstag") {
       add(day, "09:00", "10:30", "Lernen", "study");
     } else if (day === "Donnerstag") {
-      add(day, "10:30", "12:00", "Lernen", "study");
+      // Lernen ist am Donnerstag wegen Schwimmbad-Öffnungszeiten bereits oben 06:30–08:00 eingeplant.
     } else {
       add(day, "09:15", "10:45", "Lernen", "study");
     }
 
-    add(day, "10:45", "11:45", "Kochen", "food");
-    add(day, "11:45", "12:30", "Warm essen", "food");
+    if (day === "Donnerstag") {
+      add(day, "12:00", "13:00", "Kochen & Essen", "food");
+    } else {
+      add(day, "10:45", "11:45", "Kochen", "food");
+      add(day, "11:45", "12:30", "Warm essen", "food");
+    }
 
     if (["Montag", "Mittwoch", "Freitag"].includes(day)) {
       add(day, "12:30", "13:15", "Einkaufen", "shopping");
@@ -110,18 +125,18 @@ export function createDefaultWeek(): Task[] {
     add(day, "14:45", "15:30", "Puffer", "buffer");
 
     if (day === "Dienstag") {
-      add(day, "15:30", "16:00", "Nachhilfe vorbereiten", "tutoring", true);
-      add(day, "16:00", "17:00", "Nachhilfe", "tutoring", true);
+      add(day, "15:30", "16:00", "Nachhilfe Klean vorbereiten", "tutoring", true);
+      add(day, "16:00", "17:00", "Nachhilfe Klean", "tutoring", true);
     }
 
     if (day === "Mittwoch") {
-      add(day, "17:30", "18:00", "Nachhilfe vorbereiten", "tutoring", true);
-      add(day, "18:00", "19:00", "Nachhilfe", "tutoring", true);
+      add(day, "17:30", "18:00", "Nachhilfe Ben vorbereiten", "tutoring", true);
+      add(day, "18:00", "19:00", "Nachhilfe Ben", "tutoring", true);
     }
 
     if (day === "Donnerstag") {
-      add(day, "15:30", "16:00", "Nachhilfe vorbereiten", "tutoring", true);
-      add(day, "16:00", "17:00", "Nachhilfe", "tutoring", true);
+      add(day, "15:30", "16:00", "Nachhilfe Daisy vorbereiten", "tutoring", true);
+      add(day, "16:00", "17:00", "Nachhilfe Daisy", "tutoring", true);
     }
 
     add(day, "21:00", "22:00", "Abendroutine", "routine", true);
