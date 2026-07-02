@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-02T09:07:43.370Z",
+  "updatedAt": "2026-07-02T09:39:37.574Z",
   "extraTasks": [
     {
       "id": "0-Mittwoch-14:00-Friseur -1782897502510",
@@ -266,5 +266,1447 @@
         "done": false
       }
     ]
-  }
+  },
+  "calendarEvents": [
+    {
+      "id": "0-Montag-06:00-Aufstehen & Frühstück",
+      "weekOffset": 0,
+      "day": "Montag",
+      "start": "06:00",
+      "end": "06:30",
+      "title": "Aufstehen & Frühstück",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Montag\nZeit: 06:00–06:30"
+    },
+    {
+      "id": "0-Montag-06:30-Zum Gym fahren",
+      "weekOffset": 0,
+      "day": "Montag",
+      "start": "06:30",
+      "end": "06:45",
+      "title": "Zum Gym fahren",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Montag\nZeit: 06:30–06:45"
+    },
+    {
+      "id": "0-Montag-06:45-Gym – Push inkl. Duschen",
+      "weekOffset": 0,
+      "day": "Montag",
+      "start": "06:45",
+      "end": "09:00",
+      "title": "Gym – Push inkl. Duschen",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Montag\nZeit: 06:45–09:00"
+    },
+    {
+      "id": "0-Montag-09:00-Heimweg",
+      "weekOffset": 0,
+      "day": "Montag",
+      "start": "09:00",
+      "end": "09:15",
+      "title": "Heimweg",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Montag\nZeit: 09:00–09:15"
+    },
+    {
+      "id": "0-Montag-09:15-Lernen",
+      "weekOffset": 0,
+      "day": "Montag",
+      "start": "09:15",
+      "end": "10:45",
+      "title": "Lernen",
+      "type": "study",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Montag\nZeit: 09:15–10:45"
+    },
+    {
+      "id": "0-Montag-10:45-Kochen",
+      "weekOffset": 0,
+      "day": "Montag",
+      "start": "10:45",
+      "end": "11:45",
+      "title": "Kochen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Montag\nZeit: 10:45–11:45"
+    },
+    {
+      "id": "0-Montag-11:45-Warm essen",
+      "weekOffset": 0,
+      "day": "Montag",
+      "start": "11:45",
+      "end": "12:30",
+      "title": "Warm essen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Montag\nZeit: 11:45–12:30"
+    },
+    {
+      "id": "0-Montag-12:30-Einkaufen",
+      "weekOffset": 0,
+      "day": "Montag",
+      "start": "12:30",
+      "end": "13:15",
+      "title": "Einkaufen",
+      "type": "shopping",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Montag\nZeit: 12:30–13:15\n\nEinkaufsliste:\n☐ Haferflocken\n☐ Milch\n☐ Hähnchen"
+    },
+    {
+      "id": "0-Montag-14:45-Puffer",
+      "weekOffset": 0,
+      "day": "Montag",
+      "start": "14:45",
+      "end": "15:30",
+      "title": "Puffer",
+      "type": "buffer",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Montag\nZeit: 14:45–15:30"
+    },
+    {
+      "id": "0-Montag-21:00-Abendroutine",
+      "weekOffset": 0,
+      "day": "Montag",
+      "start": "21:00",
+      "end": "22:00",
+      "title": "Abendroutine",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Montag\nZeit: 21:00–22:00"
+    },
+    {
+      "id": "0-Montag-22:00-Schlafen",
+      "weekOffset": 0,
+      "day": "Montag",
+      "start": "22:00",
+      "end": "06:00",
+      "title": "Schlafen",
+      "type": "sleep",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Montag\nZeit: 22:00–06:00"
+    },
+    {
+      "id": "0-Dienstag-06:00-Aufstehen & Frühstück",
+      "weekOffset": 0,
+      "day": "Dienstag",
+      "start": "06:00",
+      "end": "06:30",
+      "title": "Aufstehen & Frühstück",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Dienstag\nZeit: 06:00–06:30"
+    },
+    {
+      "id": "0-Dienstag-06:30-Laufen",
+      "weekOffset": 0,
+      "day": "Dienstag",
+      "start": "06:30",
+      "end": "07:30",
+      "title": "Laufen",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Dienstag\nZeit: 06:30–07:30"
+    },
+    {
+      "id": "0-Dienstag-07:30-Duschen zuhause",
+      "weekOffset": 0,
+      "day": "Dienstag",
+      "start": "07:30",
+      "end": "08:00",
+      "title": "Duschen zuhause",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Dienstag\nZeit: 07:30–08:00"
+    },
+    {
+      "id": "0-Dienstag-08:00-Wäsche",
+      "weekOffset": 0,
+      "day": "Dienstag",
+      "start": "08:00",
+      "end": "09:00",
+      "title": "Wäsche",
+      "type": "household",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Dienstag\nZeit: 08:00–09:00"
+    },
+    {
+      "id": "0-Dienstag-09:00-Lernen",
+      "weekOffset": 0,
+      "day": "Dienstag",
+      "start": "09:00",
+      "end": "10:30",
+      "title": "Lernen",
+      "type": "study",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Dienstag\nZeit: 09:00–10:30"
+    },
+    {
+      "id": "0-Dienstag-10:45-Kochen",
+      "weekOffset": 0,
+      "day": "Dienstag",
+      "start": "10:45",
+      "end": "11:45",
+      "title": "Kochen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Dienstag\nZeit: 10:45–11:45"
+    },
+    {
+      "id": "0-Dienstag-11:45-Warm essen",
+      "weekOffset": 0,
+      "day": "Dienstag",
+      "start": "11:45",
+      "end": "12:30",
+      "title": "Warm essen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Dienstag\nZeit: 11:45–12:30"
+    },
+    {
+      "id": "0-Dienstag-14:45-Puffer",
+      "weekOffset": 0,
+      "day": "Dienstag",
+      "start": "14:45",
+      "end": "15:30",
+      "title": "Puffer",
+      "type": "buffer",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Dienstag\nZeit: 14:45–15:30"
+    },
+    {
+      "id": "0-Dienstag-15:30-Nachhilfe Klean vorbereiten",
+      "weekOffset": 0,
+      "day": "Dienstag",
+      "start": "15:30",
+      "end": "16:00",
+      "title": "Nachhilfe Klean vorbereiten",
+      "type": "tutoring",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Dienstag\nZeit: 15:30–16:00"
+    },
+    {
+      "id": "0-Dienstag-16:00-Nachhilfe Klean",
+      "weekOffset": 0,
+      "day": "Dienstag",
+      "start": "16:00",
+      "end": "17:00",
+      "title": "Nachhilfe Klean",
+      "type": "tutoring",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Dienstag\nZeit: 16:00–17:00"
+    },
+    {
+      "id": "0-Dienstag-21:00-Abendroutine",
+      "weekOffset": 0,
+      "day": "Dienstag",
+      "start": "21:00",
+      "end": "22:00",
+      "title": "Abendroutine",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Dienstag\nZeit: 21:00–22:00"
+    },
+    {
+      "id": "0-Dienstag-22:00-Schlafen",
+      "weekOffset": 0,
+      "day": "Dienstag",
+      "start": "22:00",
+      "end": "06:00",
+      "title": "Schlafen",
+      "type": "sleep",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Dienstag\nZeit: 22:00–06:00"
+    },
+    {
+      "id": "0-Mittwoch-06:00-Aufstehen & Frühstück",
+      "weekOffset": 0,
+      "day": "Mittwoch",
+      "start": "06:00",
+      "end": "06:30",
+      "title": "Aufstehen & Frühstück",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Mittwoch\nZeit: 06:00–06:30"
+    },
+    {
+      "id": "0-Mittwoch-06:30-Zum Gym fahren",
+      "weekOffset": 0,
+      "day": "Mittwoch",
+      "start": "06:30",
+      "end": "06:45",
+      "title": "Zum Gym fahren",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Mittwoch\nZeit: 06:30–06:45"
+    },
+    {
+      "id": "0-Mittwoch-06:45-Gym – Pull inkl. Duschen",
+      "weekOffset": 0,
+      "day": "Mittwoch",
+      "start": "06:45",
+      "end": "09:00",
+      "title": "Gym – Pull inkl. Duschen",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Mittwoch\nZeit: 06:45–09:00"
+    },
+    {
+      "id": "0-Mittwoch-09:00-Heimweg",
+      "weekOffset": 0,
+      "day": "Mittwoch",
+      "start": "09:00",
+      "end": "09:15",
+      "title": "Heimweg",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Mittwoch\nZeit: 09:00–09:15"
+    },
+    {
+      "id": "0-Mittwoch-09:15-Lernen",
+      "weekOffset": 0,
+      "day": "Mittwoch",
+      "start": "09:15",
+      "end": "10:45",
+      "title": "Lernen",
+      "type": "study",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Mittwoch\nZeit: 09:15–10:45"
+    },
+    {
+      "id": "0-Mittwoch-10:45-Kochen",
+      "weekOffset": 0,
+      "day": "Mittwoch",
+      "start": "10:45",
+      "end": "11:45",
+      "title": "Kochen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Mittwoch\nZeit: 10:45–11:45"
+    },
+    {
+      "id": "0-Mittwoch-11:45-Warm essen",
+      "weekOffset": 0,
+      "day": "Mittwoch",
+      "start": "11:45",
+      "end": "12:30",
+      "title": "Warm essen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Mittwoch\nZeit: 11:45–12:30"
+    },
+    {
+      "id": "0-Mittwoch-12:30-Einkaufen",
+      "weekOffset": 0,
+      "day": "Mittwoch",
+      "start": "12:30",
+      "end": "13:15",
+      "title": "Einkaufen",
+      "type": "shopping",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Mittwoch\nZeit: 12:30–13:15\n\nEinkaufsliste:\n☐ Haferflocken\n☐ Eier\n☐ Milch\n☐ Reis\n☐ Hähnchen\n☐ Gemüse\n☐ Obst\n☐ Joghurt"
+    },
+    {
+      "id": "0-0-Mittwoch-14:00-Friseur -1782897502510",
+      "weekOffset": 0,
+      "day": "Mittwoch",
+      "start": "14:00",
+      "end": "15:00",
+      "title": "Friseur ",
+      "type": "free",
+      "notes": "Quelle: spontaner Termin\nWoche: diese Woche\nTag: Mittwoch\nZeit: 14:00–15:00"
+    },
+    {
+      "id": "0-Mittwoch-14:45-Puffer",
+      "weekOffset": 0,
+      "day": "Mittwoch",
+      "start": "15:00",
+      "end": "15:45",
+      "title": "Puffer",
+      "type": "buffer",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Mittwoch\nZeit: 15:00–15:45\nVerschoben von: 14:45–15:30"
+    },
+    {
+      "id": "0-Mittwoch-17:30-Nachhilfe Ben vorbereiten",
+      "weekOffset": 0,
+      "day": "Mittwoch",
+      "start": "17:30",
+      "end": "18:00",
+      "title": "Nachhilfe Ben vorbereiten",
+      "type": "tutoring",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Mittwoch\nZeit: 17:30–18:00"
+    },
+    {
+      "id": "0-Mittwoch-18:00-Nachhilfe Ben",
+      "weekOffset": 0,
+      "day": "Mittwoch",
+      "start": "18:00",
+      "end": "19:00",
+      "title": "Nachhilfe Ben",
+      "type": "tutoring",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Mittwoch\nZeit: 18:00–19:00"
+    },
+    {
+      "id": "0-Mittwoch-21:00-Abendroutine",
+      "weekOffset": 0,
+      "day": "Mittwoch",
+      "start": "21:00",
+      "end": "22:00",
+      "title": "Abendroutine",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Mittwoch\nZeit: 21:00–22:00"
+    },
+    {
+      "id": "0-Mittwoch-22:00-Schlafen",
+      "weekOffset": 0,
+      "day": "Mittwoch",
+      "start": "22:00",
+      "end": "06:00",
+      "title": "Schlafen",
+      "type": "sleep",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Mittwoch\nZeit: 22:00–06:00"
+    },
+    {
+      "id": "0-Donnerstag-06:00-Aufstehen & Frühstück",
+      "weekOffset": 0,
+      "day": "Donnerstag",
+      "start": "06:00",
+      "end": "06:30",
+      "title": "Aufstehen & Frühstück",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Donnerstag\nZeit: 06:00–06:30"
+    },
+    {
+      "id": "0-Donnerstag-06:30-Lernen",
+      "weekOffset": 0,
+      "day": "Donnerstag",
+      "start": "06:30",
+      "end": "08:00",
+      "title": "Lernen",
+      "type": "study",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Donnerstag\nZeit: 06:30–08:00"
+    },
+    {
+      "id": "0-Donnerstag-08:00-Wäsche",
+      "weekOffset": 0,
+      "day": "Donnerstag",
+      "start": "08:00",
+      "end": "08:30",
+      "title": "Wäsche",
+      "type": "household",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Donnerstag\nZeit: 08:00–08:30"
+    },
+    {
+      "id": "0-Donnerstag-08:30-Zum Schwimmen fahren",
+      "weekOffset": 0,
+      "day": "Donnerstag",
+      "start": "08:30",
+      "end": "09:00",
+      "title": "Zum Schwimmen fahren",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Donnerstag\nZeit: 08:30–09:00"
+    },
+    {
+      "id": "0-Donnerstag-09:00-Schwimmen",
+      "weekOffset": 0,
+      "day": "Donnerstag",
+      "start": "09:00",
+      "end": "10:30",
+      "title": "Schwimmen",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Donnerstag\nZeit: 09:00–10:30"
+    },
+    {
+      "id": "0-Donnerstag-10:30-Rückfahrt",
+      "weekOffset": 0,
+      "day": "Donnerstag",
+      "start": "10:30",
+      "end": "11:00",
+      "title": "Rückfahrt",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Donnerstag\nZeit: 10:30–11:00"
+    },
+    {
+      "id": "0-Donnerstag-11:00-Duschen",
+      "weekOffset": 0,
+      "day": "Donnerstag",
+      "start": "11:00",
+      "end": "11:30",
+      "title": "Duschen",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Donnerstag\nZeit: 11:00–11:30"
+    },
+    {
+      "id": "0-0-Donnerstag-11:06-Schwimmen-1782983219374",
+      "weekOffset": 0,
+      "day": "Donnerstag",
+      "start": "11:06",
+      "end": "12:06",
+      "title": "Schwimmen",
+      "type": "free",
+      "notes": "Quelle: spontaner Termin\nWoche: diese Woche\nTag: Donnerstag\nZeit: 11:06–12:06"
+    },
+    {
+      "id": "0-Donnerstag-12:00-Kochen & Essen",
+      "weekOffset": 0,
+      "day": "Donnerstag",
+      "start": "12:06",
+      "end": "13:06",
+      "title": "Kochen & Essen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Donnerstag\nZeit: 12:06–13:06\nVerschoben von: 12:00–13:00"
+    },
+    {
+      "id": "0-Donnerstag-14:45-Puffer",
+      "weekOffset": 0,
+      "day": "Donnerstag",
+      "start": "14:45",
+      "end": "15:30",
+      "title": "Puffer",
+      "type": "buffer",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Donnerstag\nZeit: 14:45–15:30"
+    },
+    {
+      "id": "0-Donnerstag-15:30-Nachhilfe Daisy vorbereiten",
+      "weekOffset": 0,
+      "day": "Donnerstag",
+      "start": "15:30",
+      "end": "16:00",
+      "title": "Nachhilfe Daisy vorbereiten",
+      "type": "tutoring",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Donnerstag\nZeit: 15:30–16:00"
+    },
+    {
+      "id": "0-Donnerstag-16:00-Nachhilfe Daisy",
+      "weekOffset": 0,
+      "day": "Donnerstag",
+      "start": "16:00",
+      "end": "17:00",
+      "title": "Nachhilfe Daisy",
+      "type": "tutoring",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Donnerstag\nZeit: 16:00–17:00"
+    },
+    {
+      "id": "0-Donnerstag-21:00-Abendroutine",
+      "weekOffset": 0,
+      "day": "Donnerstag",
+      "start": "21:00",
+      "end": "22:00",
+      "title": "Abendroutine",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Donnerstag\nZeit: 21:00–22:00"
+    },
+    {
+      "id": "0-Donnerstag-22:00-Schlafen",
+      "weekOffset": 0,
+      "day": "Donnerstag",
+      "start": "22:00",
+      "end": "06:00",
+      "title": "Schlafen",
+      "type": "sleep",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Donnerstag\nZeit: 22:00–06:00"
+    },
+    {
+      "id": "0-Freitag-06:00-Aufstehen & Frühstück",
+      "weekOffset": 0,
+      "day": "Freitag",
+      "start": "06:00",
+      "end": "06:30",
+      "title": "Aufstehen & Frühstück",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Freitag\nZeit: 06:00–06:30"
+    },
+    {
+      "id": "0-Freitag-06:30-Zum Gym fahren",
+      "weekOffset": 0,
+      "day": "Freitag",
+      "start": "06:30",
+      "end": "06:45",
+      "title": "Zum Gym fahren",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Freitag\nZeit: 06:30–06:45"
+    },
+    {
+      "id": "0-Freitag-06:45-Gym – Legs inkl. Duschen",
+      "weekOffset": 0,
+      "day": "Freitag",
+      "start": "06:45",
+      "end": "09:00",
+      "title": "Gym – Legs inkl. Duschen",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Freitag\nZeit: 06:45–09:00"
+    },
+    {
+      "id": "0-Freitag-09:00-Heimweg",
+      "weekOffset": 0,
+      "day": "Freitag",
+      "start": "09:00",
+      "end": "09:15",
+      "title": "Heimweg",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Freitag\nZeit: 09:00–09:15"
+    },
+    {
+      "id": "0-Freitag-09:15-Lernen",
+      "weekOffset": 0,
+      "day": "Freitag",
+      "start": "09:15",
+      "end": "10:45",
+      "title": "Lernen",
+      "type": "study",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Freitag\nZeit: 09:15–10:45"
+    },
+    {
+      "id": "0-Freitag-10:45-Kochen",
+      "weekOffset": 0,
+      "day": "Freitag",
+      "start": "10:45",
+      "end": "11:45",
+      "title": "Kochen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Freitag\nZeit: 10:45–11:45"
+    },
+    {
+      "id": "0-Freitag-11:45-Warm essen",
+      "weekOffset": 0,
+      "day": "Freitag",
+      "start": "11:45",
+      "end": "12:30",
+      "title": "Warm essen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Freitag\nZeit: 11:45–12:30"
+    },
+    {
+      "id": "0-Freitag-12:30-Einkaufen",
+      "weekOffset": 0,
+      "day": "Freitag",
+      "start": "12:30",
+      "end": "13:15",
+      "title": "Einkaufen",
+      "type": "shopping",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Freitag\nZeit: 12:30–13:15\n\nEinkaufsliste:\n☐ Haferflocken\n☐ Eier\n☐ Milch\n☐ Reis\n☐ Hähnchen\n☐ Gemüse\n☐ Obst\n☐ Joghurt"
+    },
+    {
+      "id": "0-Freitag-13:15-Wohnung putzen",
+      "weekOffset": 0,
+      "day": "Freitag",
+      "start": "13:15",
+      "end": "14:45",
+      "title": "Wohnung putzen",
+      "type": "household",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Freitag\nZeit: 13:15–14:45"
+    },
+    {
+      "id": "0-Freitag-14:45-Puffer",
+      "weekOffset": 0,
+      "day": "Freitag",
+      "start": "14:45",
+      "end": "15:30",
+      "title": "Puffer",
+      "type": "buffer",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Freitag\nZeit: 14:45–15:30"
+    },
+    {
+      "id": "0-Freitag-21:00-Abendroutine",
+      "weekOffset": 0,
+      "day": "Freitag",
+      "start": "21:00",
+      "end": "22:00",
+      "title": "Abendroutine",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Freitag\nZeit: 21:00–22:00"
+    },
+    {
+      "id": "0-Freitag-22:00-Schlafen",
+      "weekOffset": 0,
+      "day": "Freitag",
+      "start": "22:00",
+      "end": "06:00",
+      "title": "Schlafen",
+      "type": "sleep",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Freitag\nZeit: 22:00–06:00"
+    },
+    {
+      "id": "0-Samstag-06:00-Aufstehen & Frühstück",
+      "weekOffset": 0,
+      "day": "Samstag",
+      "start": "06:00",
+      "end": "06:30",
+      "title": "Aufstehen & Frühstück",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Samstag\nZeit: 06:00–06:30"
+    },
+    {
+      "id": "0-Samstag-06:30-Cardio: Laufen oder Schwimmen",
+      "weekOffset": 0,
+      "day": "Samstag",
+      "start": "06:30",
+      "end": "08:00",
+      "title": "Cardio: Laufen oder Schwimmen",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Samstag\nZeit: 06:30–08:00"
+    },
+    {
+      "id": "0-Samstag-08:00-Duschen",
+      "weekOffset": 0,
+      "day": "Samstag",
+      "start": "08:00",
+      "end": "08:30",
+      "title": "Duschen",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Samstag\nZeit: 08:00–08:30"
+    },
+    {
+      "id": "0-Samstag-09:15-Lernen",
+      "weekOffset": 0,
+      "day": "Samstag",
+      "start": "09:15",
+      "end": "10:45",
+      "title": "Lernen",
+      "type": "study",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Samstag\nZeit: 09:15–10:45"
+    },
+    {
+      "id": "0-Samstag-10:45-Kochen",
+      "weekOffset": 0,
+      "day": "Samstag",
+      "start": "10:45",
+      "end": "11:45",
+      "title": "Kochen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Samstag\nZeit: 10:45–11:45"
+    },
+    {
+      "id": "0-Samstag-11:45-Warm essen",
+      "weekOffset": 0,
+      "day": "Samstag",
+      "start": "11:45",
+      "end": "12:30",
+      "title": "Warm essen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Samstag\nZeit: 11:45–12:30"
+    },
+    {
+      "id": "0-Samstag-14:45-Puffer",
+      "weekOffset": 0,
+      "day": "Samstag",
+      "start": "14:45",
+      "end": "15:30",
+      "title": "Puffer",
+      "type": "buffer",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Samstag\nZeit: 14:45–15:30"
+    },
+    {
+      "id": "0-Samstag-21:00-Abendroutine",
+      "weekOffset": 0,
+      "day": "Samstag",
+      "start": "21:00",
+      "end": "22:00",
+      "title": "Abendroutine",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Samstag\nZeit: 21:00–22:00"
+    },
+    {
+      "id": "0-Samstag-22:00-Schlafen",
+      "weekOffset": 0,
+      "day": "Samstag",
+      "start": "22:00",
+      "end": "06:00",
+      "title": "Schlafen",
+      "type": "sleep",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Samstag\nZeit: 22:00–06:00"
+    },
+    {
+      "id": "0-Sonntag-00:00-Komplett frei",
+      "weekOffset": 0,
+      "day": "Sonntag",
+      "start": "00:00",
+      "end": "23:59",
+      "title": "Komplett frei",
+      "type": "free",
+      "notes": "Quelle: Standardplan\nWoche: diese Woche\nTag: Sonntag\nZeit: 00:00–23:59"
+    },
+    {
+      "id": "1-Montag-06:00-Aufstehen & Frühstück",
+      "weekOffset": 1,
+      "day": "Montag",
+      "start": "06:00",
+      "end": "06:30",
+      "title": "Aufstehen & Frühstück",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Montag\nZeit: 06:00–06:30"
+    },
+    {
+      "id": "1-Montag-06:30-Zum Gym fahren",
+      "weekOffset": 1,
+      "day": "Montag",
+      "start": "06:30",
+      "end": "06:45",
+      "title": "Zum Gym fahren",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Montag\nZeit: 06:30–06:45"
+    },
+    {
+      "id": "1-Montag-06:45-Gym – Push inkl. Duschen",
+      "weekOffset": 1,
+      "day": "Montag",
+      "start": "06:45",
+      "end": "09:00",
+      "title": "Gym – Push inkl. Duschen",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Montag\nZeit: 06:45–09:00"
+    },
+    {
+      "id": "1-Montag-09:00-Heimweg",
+      "weekOffset": 1,
+      "day": "Montag",
+      "start": "09:00",
+      "end": "09:15",
+      "title": "Heimweg",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Montag\nZeit: 09:00–09:15"
+    },
+    {
+      "id": "1-Montag-09:15-Lernen",
+      "weekOffset": 1,
+      "day": "Montag",
+      "start": "09:15",
+      "end": "10:45",
+      "title": "Lernen",
+      "type": "study",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Montag\nZeit: 09:15–10:45"
+    },
+    {
+      "id": "1-Montag-10:45-Kochen",
+      "weekOffset": 1,
+      "day": "Montag",
+      "start": "10:45",
+      "end": "11:45",
+      "title": "Kochen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Montag\nZeit: 10:45–11:45"
+    },
+    {
+      "id": "1-Montag-11:45-Warm essen",
+      "weekOffset": 1,
+      "day": "Montag",
+      "start": "11:45",
+      "end": "12:30",
+      "title": "Warm essen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Montag\nZeit: 11:45–12:30"
+    },
+    {
+      "id": "1-Montag-12:30-Einkaufen",
+      "weekOffset": 1,
+      "day": "Montag",
+      "start": "12:30",
+      "end": "13:15",
+      "title": "Einkaufen",
+      "type": "shopping",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Montag\nZeit: 12:30–13:15\n\nEinkaufsliste:\n☐ Haferflocken\n☐ Eier\n☐ Milch\n☐ Reis\n☐ Hähnchen\n☐ Gemüse\n☐ Obst\n☐ Joghurt"
+    },
+    {
+      "id": "1-Montag-14:45-Puffer",
+      "weekOffset": 1,
+      "day": "Montag",
+      "start": "14:45",
+      "end": "15:30",
+      "title": "Puffer",
+      "type": "buffer",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Montag\nZeit: 14:45–15:30"
+    },
+    {
+      "id": "1-Montag-21:00-Abendroutine",
+      "weekOffset": 1,
+      "day": "Montag",
+      "start": "21:00",
+      "end": "22:00",
+      "title": "Abendroutine",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Montag\nZeit: 21:00–22:00"
+    },
+    {
+      "id": "1-Montag-22:00-Schlafen",
+      "weekOffset": 1,
+      "day": "Montag",
+      "start": "22:00",
+      "end": "06:00",
+      "title": "Schlafen",
+      "type": "sleep",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Montag\nZeit: 22:00–06:00"
+    },
+    {
+      "id": "1-Dienstag-06:00-Aufstehen & Frühstück",
+      "weekOffset": 1,
+      "day": "Dienstag",
+      "start": "06:00",
+      "end": "06:30",
+      "title": "Aufstehen & Frühstück",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Dienstag\nZeit: 06:00–06:30"
+    },
+    {
+      "id": "1-Dienstag-06:30-Laufen",
+      "weekOffset": 1,
+      "day": "Dienstag",
+      "start": "06:30",
+      "end": "07:30",
+      "title": "Laufen",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Dienstag\nZeit: 06:30–07:30"
+    },
+    {
+      "id": "1-Dienstag-07:30-Duschen zuhause",
+      "weekOffset": 1,
+      "day": "Dienstag",
+      "start": "07:30",
+      "end": "08:00",
+      "title": "Duschen zuhause",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Dienstag\nZeit: 07:30–08:00"
+    },
+    {
+      "id": "1-Dienstag-08:00-Wäsche",
+      "weekOffset": 1,
+      "day": "Dienstag",
+      "start": "08:00",
+      "end": "09:00",
+      "title": "Wäsche",
+      "type": "household",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Dienstag\nZeit: 08:00–09:00"
+    },
+    {
+      "id": "1-Dienstag-09:00-Lernen",
+      "weekOffset": 1,
+      "day": "Dienstag",
+      "start": "09:00",
+      "end": "10:30",
+      "title": "Lernen",
+      "type": "study",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Dienstag\nZeit: 09:00–10:30"
+    },
+    {
+      "id": "1-Dienstag-10:45-Kochen",
+      "weekOffset": 1,
+      "day": "Dienstag",
+      "start": "10:45",
+      "end": "11:45",
+      "title": "Kochen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Dienstag\nZeit: 10:45–11:45"
+    },
+    {
+      "id": "1-Dienstag-11:45-Warm essen",
+      "weekOffset": 1,
+      "day": "Dienstag",
+      "start": "11:45",
+      "end": "12:30",
+      "title": "Warm essen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Dienstag\nZeit: 11:45–12:30"
+    },
+    {
+      "id": "1-Dienstag-14:45-Puffer",
+      "weekOffset": 1,
+      "day": "Dienstag",
+      "start": "14:45",
+      "end": "15:30",
+      "title": "Puffer",
+      "type": "buffer",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Dienstag\nZeit: 14:45–15:30"
+    },
+    {
+      "id": "1-Dienstag-15:30-Nachhilfe Klean vorbereiten",
+      "weekOffset": 1,
+      "day": "Dienstag",
+      "start": "15:30",
+      "end": "16:00",
+      "title": "Nachhilfe Klean vorbereiten",
+      "type": "tutoring",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Dienstag\nZeit: 15:30–16:00"
+    },
+    {
+      "id": "1-Dienstag-16:00-Nachhilfe Klean",
+      "weekOffset": 1,
+      "day": "Dienstag",
+      "start": "16:00",
+      "end": "17:00",
+      "title": "Nachhilfe Klean",
+      "type": "tutoring",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Dienstag\nZeit: 16:00–17:00"
+    },
+    {
+      "id": "1-Dienstag-21:00-Abendroutine",
+      "weekOffset": 1,
+      "day": "Dienstag",
+      "start": "21:00",
+      "end": "22:00",
+      "title": "Abendroutine",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Dienstag\nZeit: 21:00–22:00"
+    },
+    {
+      "id": "1-Dienstag-22:00-Schlafen",
+      "weekOffset": 1,
+      "day": "Dienstag",
+      "start": "22:00",
+      "end": "06:00",
+      "title": "Schlafen",
+      "type": "sleep",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Dienstag\nZeit: 22:00–06:00"
+    },
+    {
+      "id": "1-Mittwoch-06:00-Aufstehen & Frühstück",
+      "weekOffset": 1,
+      "day": "Mittwoch",
+      "start": "06:00",
+      "end": "06:30",
+      "title": "Aufstehen & Frühstück",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Mittwoch\nZeit: 06:00–06:30"
+    },
+    {
+      "id": "1-Mittwoch-06:30-Zum Gym fahren",
+      "weekOffset": 1,
+      "day": "Mittwoch",
+      "start": "06:30",
+      "end": "06:45",
+      "title": "Zum Gym fahren",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Mittwoch\nZeit: 06:30–06:45"
+    },
+    {
+      "id": "1-Mittwoch-06:45-Gym – Pull inkl. Duschen",
+      "weekOffset": 1,
+      "day": "Mittwoch",
+      "start": "06:45",
+      "end": "09:00",
+      "title": "Gym – Pull inkl. Duschen",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Mittwoch\nZeit: 06:45–09:00"
+    },
+    {
+      "id": "1-Mittwoch-09:00-Heimweg",
+      "weekOffset": 1,
+      "day": "Mittwoch",
+      "start": "09:00",
+      "end": "09:15",
+      "title": "Heimweg",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Mittwoch\nZeit: 09:00–09:15"
+    },
+    {
+      "id": "1-Mittwoch-09:15-Lernen",
+      "weekOffset": 1,
+      "day": "Mittwoch",
+      "start": "09:15",
+      "end": "10:45",
+      "title": "Lernen",
+      "type": "study",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Mittwoch\nZeit: 09:15–10:45"
+    },
+    {
+      "id": "1-Mittwoch-10:45-Kochen",
+      "weekOffset": 1,
+      "day": "Mittwoch",
+      "start": "10:45",
+      "end": "11:45",
+      "title": "Kochen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Mittwoch\nZeit: 10:45–11:45"
+    },
+    {
+      "id": "1-Mittwoch-11:45-Warm essen",
+      "weekOffset": 1,
+      "day": "Mittwoch",
+      "start": "11:45",
+      "end": "12:30",
+      "title": "Warm essen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Mittwoch\nZeit: 11:45–12:30"
+    },
+    {
+      "id": "1-Mittwoch-12:30-Einkaufen",
+      "weekOffset": 1,
+      "day": "Mittwoch",
+      "start": "12:30",
+      "end": "13:15",
+      "title": "Einkaufen",
+      "type": "shopping",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Mittwoch\nZeit: 12:30–13:15\n\nEinkaufsliste:\n☐ Haferflocken\n☐ Eier\n☐ Milch\n☐ Reis\n☐ Hähnchen\n☐ Gemüse\n☐ Obst\n☐ Joghurt"
+    },
+    {
+      "id": "1-Mittwoch-14:45-Puffer",
+      "weekOffset": 1,
+      "day": "Mittwoch",
+      "start": "14:45",
+      "end": "15:30",
+      "title": "Puffer",
+      "type": "buffer",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Mittwoch\nZeit: 14:45–15:30"
+    },
+    {
+      "id": "1-Mittwoch-17:30-Nachhilfe Ben vorbereiten",
+      "weekOffset": 1,
+      "day": "Mittwoch",
+      "start": "17:30",
+      "end": "18:00",
+      "title": "Nachhilfe Ben vorbereiten",
+      "type": "tutoring",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Mittwoch\nZeit: 17:30–18:00"
+    },
+    {
+      "id": "1-Mittwoch-18:00-Nachhilfe Ben",
+      "weekOffset": 1,
+      "day": "Mittwoch",
+      "start": "18:00",
+      "end": "19:00",
+      "title": "Nachhilfe Ben",
+      "type": "tutoring",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Mittwoch\nZeit: 18:00–19:00"
+    },
+    {
+      "id": "1-Mittwoch-21:00-Abendroutine",
+      "weekOffset": 1,
+      "day": "Mittwoch",
+      "start": "21:00",
+      "end": "22:00",
+      "title": "Abendroutine",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Mittwoch\nZeit: 21:00–22:00"
+    },
+    {
+      "id": "1-Mittwoch-22:00-Schlafen",
+      "weekOffset": 1,
+      "day": "Mittwoch",
+      "start": "22:00",
+      "end": "06:00",
+      "title": "Schlafen",
+      "type": "sleep",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Mittwoch\nZeit: 22:00–06:00"
+    },
+    {
+      "id": "1-Donnerstag-06:00-Aufstehen & Frühstück",
+      "weekOffset": 1,
+      "day": "Donnerstag",
+      "start": "06:00",
+      "end": "06:30",
+      "title": "Aufstehen & Frühstück",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Donnerstag\nZeit: 06:00–06:30"
+    },
+    {
+      "id": "1-Donnerstag-06:30-Lernen",
+      "weekOffset": 1,
+      "day": "Donnerstag",
+      "start": "06:30",
+      "end": "08:00",
+      "title": "Lernen",
+      "type": "study",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Donnerstag\nZeit: 06:30–08:00"
+    },
+    {
+      "id": "1-Donnerstag-08:00-Wäsche",
+      "weekOffset": 1,
+      "day": "Donnerstag",
+      "start": "08:00",
+      "end": "08:30",
+      "title": "Wäsche",
+      "type": "household",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Donnerstag\nZeit: 08:00–08:30"
+    },
+    {
+      "id": "1-Donnerstag-08:30-Zum Schwimmen fahren",
+      "weekOffset": 1,
+      "day": "Donnerstag",
+      "start": "08:30",
+      "end": "09:00",
+      "title": "Zum Schwimmen fahren",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Donnerstag\nZeit: 08:30–09:00"
+    },
+    {
+      "id": "1-Donnerstag-09:00-Schwimmen",
+      "weekOffset": 1,
+      "day": "Donnerstag",
+      "start": "09:00",
+      "end": "10:30",
+      "title": "Schwimmen",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Donnerstag\nZeit: 09:00–10:30"
+    },
+    {
+      "id": "1-Donnerstag-10:30-Rückfahrt",
+      "weekOffset": 1,
+      "day": "Donnerstag",
+      "start": "10:30",
+      "end": "11:00",
+      "title": "Rückfahrt",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Donnerstag\nZeit: 10:30–11:00"
+    },
+    {
+      "id": "1-Donnerstag-11:00-Duschen",
+      "weekOffset": 1,
+      "day": "Donnerstag",
+      "start": "11:00",
+      "end": "11:30",
+      "title": "Duschen",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Donnerstag\nZeit: 11:00–11:30"
+    },
+    {
+      "id": "1-Donnerstag-12:00-Kochen & Essen",
+      "weekOffset": 1,
+      "day": "Donnerstag",
+      "start": "12:00",
+      "end": "13:00",
+      "title": "Kochen & Essen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Donnerstag\nZeit: 12:00–13:00"
+    },
+    {
+      "id": "1-Donnerstag-14:45-Puffer",
+      "weekOffset": 1,
+      "day": "Donnerstag",
+      "start": "14:45",
+      "end": "15:30",
+      "title": "Puffer",
+      "type": "buffer",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Donnerstag\nZeit: 14:45–15:30"
+    },
+    {
+      "id": "1-Donnerstag-15:30-Nachhilfe Daisy vorbereiten",
+      "weekOffset": 1,
+      "day": "Donnerstag",
+      "start": "15:30",
+      "end": "16:00",
+      "title": "Nachhilfe Daisy vorbereiten",
+      "type": "tutoring",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Donnerstag\nZeit: 15:30–16:00"
+    },
+    {
+      "id": "1-Donnerstag-16:00-Nachhilfe Daisy",
+      "weekOffset": 1,
+      "day": "Donnerstag",
+      "start": "16:00",
+      "end": "17:00",
+      "title": "Nachhilfe Daisy",
+      "type": "tutoring",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Donnerstag\nZeit: 16:00–17:00"
+    },
+    {
+      "id": "1-Donnerstag-21:00-Abendroutine",
+      "weekOffset": 1,
+      "day": "Donnerstag",
+      "start": "21:00",
+      "end": "22:00",
+      "title": "Abendroutine",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Donnerstag\nZeit: 21:00–22:00"
+    },
+    {
+      "id": "1-Donnerstag-22:00-Schlafen",
+      "weekOffset": 1,
+      "day": "Donnerstag",
+      "start": "22:00",
+      "end": "06:00",
+      "title": "Schlafen",
+      "type": "sleep",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Donnerstag\nZeit: 22:00–06:00"
+    },
+    {
+      "id": "1-Freitag-06:00-Aufstehen & Frühstück",
+      "weekOffset": 1,
+      "day": "Freitag",
+      "start": "06:00",
+      "end": "06:30",
+      "title": "Aufstehen & Frühstück",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Freitag\nZeit: 06:00–06:30"
+    },
+    {
+      "id": "1-Freitag-06:30-Zum Gym fahren",
+      "weekOffset": 1,
+      "day": "Freitag",
+      "start": "06:30",
+      "end": "06:45",
+      "title": "Zum Gym fahren",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Freitag\nZeit: 06:30–06:45"
+    },
+    {
+      "id": "1-Freitag-06:45-Gym – Legs inkl. Duschen",
+      "weekOffset": 1,
+      "day": "Freitag",
+      "start": "06:45",
+      "end": "09:00",
+      "title": "Gym – Legs inkl. Duschen",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Freitag\nZeit: 06:45–09:00"
+    },
+    {
+      "id": "1-Freitag-09:00-Heimweg",
+      "weekOffset": 1,
+      "day": "Freitag",
+      "start": "09:00",
+      "end": "09:15",
+      "title": "Heimweg",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Freitag\nZeit: 09:00–09:15"
+    },
+    {
+      "id": "1-Freitag-09:15-Lernen",
+      "weekOffset": 1,
+      "day": "Freitag",
+      "start": "09:15",
+      "end": "10:45",
+      "title": "Lernen",
+      "type": "study",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Freitag\nZeit: 09:15–10:45"
+    },
+    {
+      "id": "1-Freitag-10:45-Kochen",
+      "weekOffset": 1,
+      "day": "Freitag",
+      "start": "10:45",
+      "end": "11:45",
+      "title": "Kochen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Freitag\nZeit: 10:45–11:45"
+    },
+    {
+      "id": "1-Freitag-11:45-Warm essen",
+      "weekOffset": 1,
+      "day": "Freitag",
+      "start": "11:45",
+      "end": "12:30",
+      "title": "Warm essen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Freitag\nZeit: 11:45–12:30"
+    },
+    {
+      "id": "1-Freitag-12:30-Einkaufen",
+      "weekOffset": 1,
+      "day": "Freitag",
+      "start": "12:30",
+      "end": "13:15",
+      "title": "Einkaufen",
+      "type": "shopping",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Freitag\nZeit: 12:30–13:15\n\nEinkaufsliste:\n☐ Haferflocken\n☐ Eier\n☐ Milch\n☐ Reis\n☐ Hähnchen\n☐ Gemüse\n☐ Obst\n☐ Joghurt"
+    },
+    {
+      "id": "1-Freitag-13:15-Wohnung putzen",
+      "weekOffset": 1,
+      "day": "Freitag",
+      "start": "13:15",
+      "end": "14:45",
+      "title": "Wohnung putzen",
+      "type": "household",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Freitag\nZeit: 13:15–14:45"
+    },
+    {
+      "id": "1-Freitag-14:45-Puffer",
+      "weekOffset": 1,
+      "day": "Freitag",
+      "start": "14:45",
+      "end": "15:30",
+      "title": "Puffer",
+      "type": "buffer",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Freitag\nZeit: 14:45–15:30"
+    },
+    {
+      "id": "1-Freitag-21:00-Abendroutine",
+      "weekOffset": 1,
+      "day": "Freitag",
+      "start": "21:00",
+      "end": "22:00",
+      "title": "Abendroutine",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Freitag\nZeit: 21:00–22:00"
+    },
+    {
+      "id": "1-Freitag-22:00-Schlafen",
+      "weekOffset": 1,
+      "day": "Freitag",
+      "start": "22:00",
+      "end": "06:00",
+      "title": "Schlafen",
+      "type": "sleep",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Freitag\nZeit: 22:00–06:00"
+    },
+    {
+      "id": "1-Samstag-06:00-Aufstehen & Frühstück",
+      "weekOffset": 1,
+      "day": "Samstag",
+      "start": "06:00",
+      "end": "06:30",
+      "title": "Aufstehen & Frühstück",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Samstag\nZeit: 06:00–06:30"
+    },
+    {
+      "id": "1-Samstag-06:30-Cardio: Laufen oder Schwimmen",
+      "weekOffset": 1,
+      "day": "Samstag",
+      "start": "06:30",
+      "end": "08:00",
+      "title": "Cardio: Laufen oder Schwimmen",
+      "type": "sport",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Samstag\nZeit: 06:30–08:00"
+    },
+    {
+      "id": "1-Samstag-08:00-Duschen",
+      "weekOffset": 1,
+      "day": "Samstag",
+      "start": "08:00",
+      "end": "08:30",
+      "title": "Duschen",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Samstag\nZeit: 08:00–08:30"
+    },
+    {
+      "id": "1-Samstag-09:15-Lernen",
+      "weekOffset": 1,
+      "day": "Samstag",
+      "start": "09:15",
+      "end": "10:45",
+      "title": "Lernen",
+      "type": "study",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Samstag\nZeit: 09:15–10:45"
+    },
+    {
+      "id": "1-Samstag-10:45-Kochen",
+      "weekOffset": 1,
+      "day": "Samstag",
+      "start": "10:45",
+      "end": "11:45",
+      "title": "Kochen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Samstag\nZeit: 10:45–11:45"
+    },
+    {
+      "id": "1-Samstag-11:45-Warm essen",
+      "weekOffset": 1,
+      "day": "Samstag",
+      "start": "11:45",
+      "end": "12:30",
+      "title": "Warm essen",
+      "type": "food",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Samstag\nZeit: 11:45–12:30"
+    },
+    {
+      "id": "1-Samstag-14:45-Puffer",
+      "weekOffset": 1,
+      "day": "Samstag",
+      "start": "14:45",
+      "end": "15:30",
+      "title": "Puffer",
+      "type": "buffer",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Samstag\nZeit: 14:45–15:30"
+    },
+    {
+      "id": "1-Samstag-21:00-Abendroutine",
+      "weekOffset": 1,
+      "day": "Samstag",
+      "start": "21:00",
+      "end": "22:00",
+      "title": "Abendroutine",
+      "type": "routine",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Samstag\nZeit: 21:00–22:00"
+    },
+    {
+      "id": "1-Samstag-22:00-Schlafen",
+      "weekOffset": 1,
+      "day": "Samstag",
+      "start": "22:00",
+      "end": "06:00",
+      "title": "Schlafen",
+      "type": "sleep",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Samstag\nZeit: 22:00–06:00"
+    },
+    {
+      "id": "1-Sonntag-00:00-Komplett frei",
+      "weekOffset": 1,
+      "day": "Sonntag",
+      "start": "00:00",
+      "end": "23:59",
+      "title": "Komplett frei",
+      "type": "free",
+      "notes": "Quelle: Standardplan\nWoche: nächste Woche\nTag: Sonntag\nZeit: 00:00–23:59"
+    }
+  ]
 }
