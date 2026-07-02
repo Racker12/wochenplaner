@@ -1,44 +1,58 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-29T18:25:15.773Z",
+  "updatedAt": "2026-07-02T08:51:09.449Z",
   "extraTasks": [
     {
-      "id": "0-Montag-17:30-Nachhilfe Daisy-1782743185050",
-      "day": "Montag",
-      "start": "17:30",
-      "end": "18:30",
-      "title": "Nachhilfe Daisy",
+      "id": "0-Mittwoch-14:00-Friseur -1782897502510",
+      "day": "Mittwoch",
+      "start": "14:00",
+      "end": "15:00",
+      "title": "Friseur ",
       "type": "free",
       "fixed": true,
       "weekOffset": 0
     },
     {
-      "id": "0-Montag-22:00-Deutschland Spiel-1782751736135",
-      "day": "Montag",
-      "start": "22:00",
-      "end": "01:00",
-      "title": "Deutschland Spiel",
-      "type": "free",
-      "fixed": true,
-      "weekOffset": 0
-    },
-    {
-      "id": "0-Montag-19:24-XD-1782757503656",
-      "day": "Montag",
-      "start": "19:24",
-      "end": "21:25",
-      "title": "XD",
+      "id": "0-Donnerstag-11:00-Schwimmen-1782982177081",
+      "day": "Donnerstag",
+      "start": "11:00",
+      "end": "13:49",
+      "title": "Schwimmen",
       "type": "free",
       "fixed": true,
       "weekOffset": 0
     }
   ],
-  "checkedTasks": [],
+  "checkedTasks": [
+    "0-Montag-06:00-Aufstehen & Frühstück",
+    "0-Montag-06:30-Zum Gym fahren",
+    "0-Montag-06:45-Gym – Push inkl. Duschen",
+    "0-Montag-09:00-Heimweg",
+    "0-Montag-09:15-Lernen",
+    "0-Montag-10:45-Kochen",
+    "0-Montag-11:45-Warm essen",
+    "0-Montag-12:30-Einkaufen",
+    "0-Mittwoch-06:00-Aufstehen & Frühstück",
+    "0-Mittwoch-06:30-Zum Gym fahren",
+    "0-Mittwoch-06:45-Gym – Pull inkl. Duschen",
+    "0-Mittwoch-09:00-Heimweg",
+    "0-Mittwoch-09:15-Lernen"
+  ],
   "shoppingLists": {
     "0-Montag": [
       {
-        "id": "custom-1782757513893",
-        "text": "Pommes",
+        "id": "default-Haferflocken",
+        "text": "Haferflocken",
+        "done": false
+      },
+      {
+        "id": "default-Milch",
+        "text": "Milch",
+        "done": false
+      },
+      {
+        "id": "default-Hähnchen",
+        "text": "Hähnchen",
         "done": false
       }
     ],
