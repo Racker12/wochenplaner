@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-02T09:06:34.380Z",
+  "updatedAt": "2026-07-02T09:07:01.403Z",
   "extraTasks": [
     {
       "id": "0-Mittwoch-14:00-Friseur -1782897502510",
@@ -8,6 +8,16 @@
       "start": "14:00",
       "end": "15:00",
       "title": "Friseur ",
+      "type": "free",
+      "fixed": true,
+      "weekOffset": 0
+    },
+    {
+      "id": "0-Donnerstag-11:06-Schwimmen-1782983219374",
+      "day": "Donnerstag",
+      "start": "11:06",
+      "end": "12:06",
+      "title": "Schwimmen",
       "type": "free",
       "fixed": true,
       "weekOffset": 0
